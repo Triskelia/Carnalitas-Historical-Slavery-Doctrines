@@ -8,7 +8,7 @@ The Full Historical game rule seeds all vanilla CK3 faiths with a doctrine corre
 
 * Criminal in Abrahamic religions (except Adamitism and Insular Christianity where it is Accepted)
 
-Christians, Muslims, and Jews all have long traditions of condemning slavery.
+Christians, Muslims, and Jews all have long traditions of condemning slavery - at least when it's one of the "righteous faith" being enslaved.
 
 Ireland and Scotland were recorded to continue the practice of keeping slaves until as late as 1200s when the Normans cracked down on it. This was technically "Criminal" under Catholicism, but CK3 uses "Insular Christianity" as a shorthand for polygamy and other stuff the Church didn't like. This why I'm making slavery Accepted under Insular Christianity.
 
