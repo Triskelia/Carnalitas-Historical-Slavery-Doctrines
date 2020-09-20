@@ -18,7 +18,7 @@ Slavery is Accepted in Adamitism on the logical grounds that there's no such thi
 
 I mostly couldn't find information about slavery in India except under the Muslim sultanates. It's possible that slavery existed in ancient India but it's a controversial topic. Buddhist and Jain teachings pretty strongly condemn slavery, which indicates that it was practiced but frowned upon. Based on this I'm going with the middle ground of Shunned for the Dharmic religions
 
-Slavery of Chinese in China was criminalized but in practice happened a lot on the border regions of the Song Empire, so it's Shunned in Taoism (which is itself a a pretty bad representation of the religious diversity of Chinese spiritual practices, but thems the breaks)
+Slavery in China was criminalized but in practice happened a lot on the border regions of the Song Empire, so it's Shunned in Taoism (which is itself a a pretty bad representation of the religious diversity of Chinese spiritual practices, but thems the breaks.)
 
 * Accepted in Pagan religions (except for Asatru where it is Shunned)
 
