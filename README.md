@@ -36,7 +36,7 @@ Some Christian leaders did denounce slavery, but the majority seem to have turne
 
 I'm not a hundred percent sure whether enslaving pagans is legal in Judaism, but based on the actions of Christians and Muslims I don't think that a theoretical historical Jewish state would be much different.
 
-Most of the pagans on the map are recorded as having taken slaves, especially the African warlords who pretty much started the institution of slavery.
+Pagans were well known for the practice of slavery, see above.
 
 * Shunned in Eastern religions
 
