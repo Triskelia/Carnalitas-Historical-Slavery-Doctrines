@@ -26,56 +26,74 @@ carn_slavery_doctrine_seeding.0001 = {
 					# RIGHTEOUS FAITH SLAVERY
 
 					if = {
-						limit = { religion = { is_in_family = rf_abrahamic } } # Righteous Faith Slavery is Criminal for Abrahamic religions, unless you're adamite or insular
-						if = {
-							limit = {
-								OR = {
-									this = faith:adamites
-									this = faith:insular_celtic
-								}
+						limit = {
+							NOR = {
+								has_doctrine = carn_doctrine_same_slavery_crime
+								has_doctrine = carn_doctrine_same_slavery_shunned
+								has_doctrine = carn_doctrine_same_slavery_accepted
 							}
-							add_doctrine = carn_doctrine_same_slavery_accepted
 						}
-						else = {
-							add_doctrine = carn_doctrine_same_slavery_crime
-						}
-					}
-					else_if = {
-						limit = { religion = { is_in_family = rf_eastern } } # Righteous Faith Slavery is Shunned for Eastern religions
-						add_doctrine = carn_doctrine_same_slavery_shunned
-					}
-					else = { # Same Religion Slavery is Accepted for pagans, unless you're Norse
 						if = {
-							limit = { this = faith:norse_pagan }
+							limit = { religion = { is_in_family = rf_abrahamic } } # Righteous Faith Slavery is Criminal for Abrahamic religions, unless you're adamite or insular
+							if = {
+								limit = {
+									OR = {
+										this = faith:adamites
+										this = faith:insular_celtic
+									}
+								}
+								add_doctrine = carn_doctrine_same_slavery_accepted
+							}
+							else = {
+								add_doctrine = carn_doctrine_same_slavery_crime
+							}
+						}
+						else_if = {
+							limit = { religion = { is_in_family = rf_eastern } } # Righteous Faith Slavery is Shunned for Eastern religions
 							add_doctrine = carn_doctrine_same_slavery_shunned
 						}
-						else = {
-							add_doctrine = carn_doctrine_same_slavery_accepted
+						else = { # Same Religion Slavery is Accepted for pagans, unless you're Norse
+							if = {
+								limit = { this = faith:norse_pagan }
+								add_doctrine = carn_doctrine_same_slavery_shunned
+							}
+							else = {
+								add_doctrine = carn_doctrine_same_slavery_accepted
+							}
 						}
 					}
 
 					# HOSTILE FAITH SLAVERY
 
 					if = {
-						limit = { religion = { is_in_family = rf_abrahamic } } # Hostile Faith Slavery is Accepted in Abrahamic religions, unless you're waldensian or bogomilist
+						limit = {
+							NOR = {
+								has_doctrine = carn_doctrine_other_slavery_crime
+								has_doctrine = carn_doctrine_other_slavery_shunned
+								has_doctrine = carn_doctrine_other_slavery_accepted
+							}
+						}
 						if = {
-							limit = { this = faith:waldensian }
-							add_doctrine = carn_doctrine_other_slavery_shunned
+							limit = { religion = { is_in_family = rf_abrahamic } } # Hostile Faith Slavery is Accepted in Abrahamic religions, unless you're waldensian or bogomilist
+							if = {
+								limit = { this = faith:waldensian }
+								add_doctrine = carn_doctrine_other_slavery_shunned
+							}
+							else_if = {
+								limit = { this = faith:bogomilist }
+								add_doctrine = carn_doctrine_other_slavery_crime
+							}
+							else = {
+								add_doctrine = carn_doctrine_other_slavery_accepted
+							}
 						}
 						else_if = {
-							limit = { this = faith:bogomilist }
-							add_doctrine = carn_doctrine_other_slavery_crime
+							limit = { religion = { is_in_family = rf_eastern } } # Hostile Faith Slavery is Shunned in Eastern religions
+							add_doctrine = carn_doctrine_other_slavery_shunned
 						}
-						else = {
+						else = { # Hostile Faith Slavery is Accepted in pagan religions
 							add_doctrine = carn_doctrine_other_slavery_accepted
 						}
-					}
-					else_if = {
-						limit = { religion = { is_in_family = rf_eastern } } # Hostile Faith Slavery is Shunned in Eastern religions
-						add_doctrine = carn_doctrine_other_slavery_shunned
-					}
-					else = { # Hostile Faith Slavery is Accepted in pagan religions
-						add_doctrine = carn_doctrine_other_slavery_accepted
 					}
 				}
 			}
