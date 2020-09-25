@@ -34,7 +34,7 @@ It is well attested that Muslims enslaved loads of non-Muslims, which famously l
 
 Some Christian leaders did denounce slavery, but the majority seem to have turned a blind eye to the practice, with tons of Muslims and Slavs being captured as prisoners of war and traded through Venice and the Byzantine Empire.
 
-I'm not a hundred percent sure whether enslaving pagans is legal in Judaism, but based on the actions of Christians and Muslims I don't think that a theoretical historical Jewish state would be much different.
+Jews were also complicit in the slave trade with Jewish merchants being the main enablers of slave trafficking between the Christian and Muslim worlds.
 
 Pagans were well known for the practice of slavery, see above.
 
